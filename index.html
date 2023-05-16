@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Shadows+Into+Light&family=Sono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Sono:wght@300&display=swap"
+      rel="stylesheet"/>
+      <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+     
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <div id="leftnavbar">
+          <div class="leftnavitem"><a class="logoa" href="#">Swap</a></div>
+          <div class="leftnavitem efect"><a href="#">Categories</a></div>
+          
+          <div class="leftnavitem efect">
+            <a href="AboutUs.html">About us</a>
+          </div>
+          <div class="leftnavitem efect"><a href="#Contact">Contact Us</a></div>
+        </div>
+        <div id="rightnavbar">
+          <span> <a class="efect "id='loginlink' href="login.html">LOGIN</a></span>
+          <span> <a class="efect disable"id='logoutlink' >LOGOUT</a></span>
+        </div>
+
+      </div>
+      
+    </header>
+
+    <!--
+    <div id="rightmaindiv ">
+      <d id="logincard">
+          
+              <p id="signtext"> Sign in to SWAP</p>
+              <div id="inputdiv">
+                  <input id='logininput2 ' class="b a" type="input" placeholder="Email">
+                  <input id='passinput2 ' class="ba a"  type="password" placeholder="Password">
+
+                  
+                  <button id="signinbutton" onclick="login()">Log In</button>
+                
+                  <p>Don't have an account? <a class='logbuttext'href="signup.html">Sign UP!</a></p>
+                  <p>Forgot your password? <a class='logbuttext' href="forgotpass.html">Click Here!</a></p>
+                  
+                
+              </div>
+              -->
+
+          
+          
+      </div>
+
+    <div id="main">
+      <div id="motto">
+        <blockquote><span id="thinktext">LET <span class="sspan" >S</span>TRADE YOUR BOOKS </blockquote>
+        
+        
+      </div>
+      </div>
+    </div>
+
+    <div id="mainbody">
+      <h1 class="addbooktext"> ADD YOUR BOOK THAT YOU WANT TO SWAP !</h1>
+    <div id="Categories" class="categoryparent">
+      
+      <div id="card1" class="card"><p class="cardtext">
+        <button id="fantasy" class="catebut">FANTASY</button>
+        
+      </p>
+    </div >
+
+      <div id="card2" class="card"><p class="cardtext" ><button id="crime"  class="catebut" >CRIME </button>
+         </p></div>
+      <div  id="card3" class="card"><p class="cardtext" ><button id="science" class="catebut" >SCIENCE </button>
+         </p></div>
+      <div id="card4" class="card"><p class="cardtext" ><button id="romance" class="catebut" > ROMANCE </button>
+         </p></div>
+      <div id="card5" class="card"><p class="cardtext" ><button id="history" class="catebut" >HISTORY </button>
+          </p></div>
+      <div id="card6" class="card"><p class="cardtext" ><button id="other" class="catebut" > OTHER </button>
+        </p></div>
+    </div>
+    <h1 class="addbooktext"> CHECK AVAIBLE BOOKS !</h1>
+    <div id="showbuttons">
+     
+      <button id="showfantasybutton" class="showbooks">  FANTASY </button>
+      <button id="showcrimebutton" class="showbooks"> CRIME </button>
+      <button id="showsciencebutton" class="showbooks"> SCIENCE </button>
+      <button id="showromancebutton" class="showbooks"> ROMANCE </button>
+      <button id="showhistorybutton" class="showbooks"> HISTORY </button>
+      <button id="showotherbutton" class="showbooks">OTHER </button>
+
+      </div>
+
+      <div id="showcasediv">
+        
+        <!-- <div class="showcasecard">
+          <h1>Harry Potter & Bla ba</h1>
+          <h2>J.K ROWLING</h2>
+          <button id="swapb" class="swapbutton">SWAP NOW!</button>
+          <div class="showlabel">1</div>
+        </div> -->
+        
+      </div>
+
+
+      <h2 id="Contact">
+        <div>
+          <p class="contacttext"> Contact Efe   <a href="https://www.linkedin.com/in/fethi-efe-okyar-58a6b724b/" target="_blank">LinkedIn</a>,<a href = "mailto: feokyar@gmail.com">Email</a></p>
+        </div>
+        <div>
+          <p class="contacttext"> Contact Mahshid   <a href="https://www.linkedin.com/in/mahshid-hamidi-sahneh/" target="_blank">LinkedIn</a>,<a href = "mailto: mahshid.sahneh@gmail.com">Email</a></p>
+        </div>
+        <div>
+          <p class="contacttext">  Contact Ahasan   <a href="https://www.linkedin.com/in/fethi-efe-okyar-58a6b724b/" target="_blank">LinkedIn</a>,<a href = "mailto: feokyar@gmail.com">Email</a></p>
+        </div>
+        
+
+      </h2>
+    
+
+
+      
+    </div>
+      
+    </div>
+
+
+
+    
+    
+
+    
+
+
+    
+
+
+    
+    
+    
+
+    
+
+
+    
+    <div id="overlay"></div>
+
+    
+
+   
+
+    <!--<div id="maindiv">
+    -->
+        
+        
+
+    <script src="index.js"></script>
+  </body>
+</html>
